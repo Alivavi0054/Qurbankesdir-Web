@@ -1,0 +1,23 @@
+* text=auto encoding=UTF-8
+
+# Ensure UTF-8 encoding for all text files
+*.java text eol=lf encoding=UTF-8
+*.sql text eol=lf encoding=UTF-8
+*.html text eol=lf encoding=UTF-8
+*.css text eol=lf encoding=UTF-8
+*.js text eol=lf encoding=UTF-8
+*.properties text eol=lf encoding=UTF-8
+*.xml text eol=lf encoding=UTF-8
+*.md text eol=lf encoding=UTF-8
+*.txt text eol=lf encoding=UTF-8
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.jar binary
+
+# Build artifacts
+target/** -text
